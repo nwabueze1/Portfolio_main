@@ -8,6 +8,10 @@ import Particle from "../Particle";
 // import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import hivedeck from "../../Assets/hivedeck.jpeg";
+import kiamoni from "../../Assets/kismoni.jpeg";
+import elegante from "../../Assets/elegante.jpeg";
+import eatup from "../../Assets/eatup.jpeg";
 
 function Projects() {
   return (
@@ -23,9 +27,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={
-                "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_9V5awgZYH5dajR2MyWHgQsaFAuiT%26teamId%3Dnwabueze1s-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_CRwQXRLbaFXypKYRYQFMGgGeJSVs"
-              }
+              imgPath={hivedeck}
               isBlog={false}
               title="Hivedeck"
               description="A website builder platform that allows users to  create thier website in minutes, without writing code. The platform has pre-built templates which can be customized to build website pages."
@@ -35,9 +37,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={
-                "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_4UMpfNZTCcJQjmFybFb7ucNtfwpY%26teamId%3Dnwabueze1s-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_CRwQXRLbaFXypKYRYQFMGgGeJSVs"
-              }
+              imgPath={kiamoni}
               isBlog={false}
               title="Kiamoni Template"
               description="An e-commerce website template that is blog enabled and build with react.js, Typescript, Material-UI, and graphql. Have features which allows user of hivedeck platform to use and customize this template to create webpages."
@@ -47,9 +47,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={
-                "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_7qoq77HuLhYGpAdei8qFfeCqvo3d%26teamId%3Dnwabueze1s-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_CRwQXRLbaFXypKYRYQFMGgGeJSVs"
-              }
+              imgPath={elegante}
               isBlog={false}
               title="Elegante Template"
               description="An e-commerce website template that is blog enabled and build with react.js, Typescript, Material-UI, and graphql. Have features which allows user of hivedeck platform to use and customize this template to create webpages."
@@ -59,9 +57,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={
-                "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_86QWPXwUvHxxRG9GgtASvyCq4Peo%26teamId%3Dnwabueze1s-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_CRwQXRLbaFXypKYRYQFMGgGeJSVs"
-              }
+              imgPath={eatup}
               isBlog={false}
               title="Eat up Template"
               description="An e-commerce website template that is blog enabled and build with react.js,Typescript, Material-UI, and graphql. Have features which allows user of hivedeck platform to use and customize this template to create webpages."
